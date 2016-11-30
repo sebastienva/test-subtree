@@ -1,0 +1,14 @@
+@import "../node_modules/material-design-lite/src/_variables.scss";
+
+$image_path: '../node_modules/material-design-lite/images' !default;
+
+@import "../node_modules/material-design-lite/src/material-design-lite.scss";
+
+
+@import "demo.scss"; // todo : move
+
+@import "global.scss";
+@import "../src/Select/Select.scss";
+@import "../src/Input/Input.scss";
+@import "../src/Switch/Switch.scss";
+@import "../src/Pagination/Pagination.scss";
